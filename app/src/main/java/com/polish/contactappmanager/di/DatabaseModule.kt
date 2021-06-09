@@ -26,7 +26,7 @@ class DatabaseModule {
             .fallbackToDestructiveMigration()
             .build()
     }
-    
+
     @Singleton
     @Provides
     fun provideContactAppManagerDao(contactAppManagerDatabase: ContactAppManagerDatabase): ContactAppManagerDao {
